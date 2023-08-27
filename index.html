@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;1,600&display=swap" rel="stylesheet">   
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <title>Spotify: Web Music Player</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="main">
+    <div class="sidebar" >
+    <div class="nav" style="background-color: #121212;">
+        <div class="nav-option">
+            <span class="material-symbols-outlined">
+                home
+                </span>
+                <a href="" style="color: #fff;">Home</a>
+        </div>
+        <div class="nav-option">
+            <span class="material-symbols-outlined">
+                search
+                </span>
+                <a href="" style="color: #fff;">Search</a>
+        </div>
+    </div>
+    <div class="library">
+        <div class="options">
+          <div class="lib-options nav-option">
+            <img src="library_icon.png">
+            <a href="" style="color: #fff;">Your library</a>
+          </div> 
+          <div class="icons">
+            <span class="material-symbols-outlined">
+                add
+                </span>
+                <span class="material-symbols-outlined">
+                    arrow_forward
+                    </span>
+          </div> 
+        </div>
+        <div class="libbox"></div>
+        <div class="box" >
+        <div class="box-p1">Create your first playlist</div>
+        <div class="box-p2">It's easy we'll help you</div>
+        <button class="badge" style="background-color: #fff; color: black;">Create playlist</button>
+    </div>
+    <div class="box" >
+        <div class="box-p1" >Let's find some podcast to follow</div>
+        <div class="box-p2" >We'll keep you updated on new episodes</div>
+        <button class="badge" style="background-color: #fff; color: black;">Watch podcast</button>
+    </div>
+    </div>
+    </div>
+    <div class="main-content">
+        <div class="sticky-nav">
+            <div class="sticky-nav-icons">
+            <img src="backward_icon.png">
+            <img src="forward_icon.png " class="hide">
+            
+        </div>
+            <div class="sticky-nav-options">
+                <button class="badge hide" style="background-color: #fff; color: black;">Explore Premium</button>
+                <button class="badge " style="background-color: #000; color: #fff;">Install App</button></div>
+               
+
+            
+        </div>
+        
+            <h2>Recently Played</h2>
+            <div class="cards-container">
+                <div class="card">
+                    <img src="card1img.jpeg" class="card-img">
+                    <p class="card-info">Top 50-Global</p>
+                    <p class="card-title">Your daily updates of the most played...</p>
+                    
+                </div>
+            </div>
+
+            <h2>Trending near you</h2>
+            <div class="cards-container">
+                <div class="card">
+                    <img src="card2img.jpeg" class="card-img">
+                    <p class="card-info">Top 50-Global</p>
+                    <p class="card-title">Your daily updates of the most played...</p>
+                    
+                </div>
+            
+            
+                <div class="card">
+                    <img src="card3img.jpeg" class="card-img">
+                    <p class="card-info">Top 50-Global</p>
+                    <p class="card-title">Your daily updates of the most played...</p>
+                    
+                </div>
+            
+            
+                <div class="card">
+                    <img src="card4img.jpeg" class="card-img">
+                    <p class="card-info">Top 50-Global</p>
+                    <p class="card-title">Your daily updates of the most played...</p>
+                    
+                </div>
+
+                <div class="card">
+                    <img src="card2img.jpeg" class="card-img">
+                    <p class="card-info">Top 50-Global</p>
+                    <p class="card-title">Your daily updates of the most played...</p>
+                    
+                </div>
+
+                <div class="card">
+                    <img src="card3img.jpeg" class="card-img">
+                    <p class="card-info">Top 50-Global</p>
+                    <p class="card-title">Your daily updates of the most played...</p>
+                    
+                </div>
+            </div>
+
+            <h2>Top Featured Charts</h2>
+            <div class="cards-container">
+                <div class="card">
+                    <img src="card1img.jpeg" class="card-img">
+                    <p class="card-info">Top 50-Global</p>
+                    <p class="card-title">Your daily updates of the most played...</p>
+                    
+                </div>
+                <div class="card">
+                    <img src="card5img.jpeg" class="card-img">
+                    <p class="card-info">Top 50-Global</p>
+                    <p class="card-title">Your daily updates of the most played...</p>
+                    
+                </div>
+                <div class="card">
+                    <img src="card6img.jpeg" class="card-img">
+                    <p class="card-info">Top 50-Global</p>
+                    <p class="card-title">Your daily updates of the most played...</p>
+                    
+                </div>
+            </div>
+            <div class="footer">
+            <div class="line"></div>
+        </div>
+        </div>
+    
+       <div class="music-player">
+        <div class="album" >
+            <img src="card2img.jpeg" >
+            <pre style="font-size: 0.75rem; font-weight: 90; margin-top: -3px; margin-left: -6rem;">
+                Mahiye jinna 
+                Darshan Raval</pre>
+            <span class="material-symbols-outlined album" style="font-size: 0.75rem; margin-left: -1rem; margin-top: -1rem;" >favorite</span>
+            <span class="material-symbols-outlined album" style="font-size: 0.75rem; margin-left: -4rem; margin-top: -1rem;" >
+                dialogs
+                </span>
+        </div>
+        <div class="player" >
+            <div class="player-controls">
+                <img src="player_icon1.png" class="player-control-icon">
+                <img src="player_icon2.png" class="player-control-icon">
+                <img src="player_icon3.png" class="player-control-icon" style="opacity: 1; height: 2rem;">
+                <img src="player_icon4.png" class="player-control-icon">
+                <img src="player_icon5.png" class="player-control-icon">
+            </div>
+            <div class="playback-bar">
+                <span class="curr-time">0:00</span>
+                <input type="range" min="0" max="100" class="progress-bar">
+                <span class="tot-time">3:00</span>
+            </div>
+        </div>
+        <div class="controls" >
+            <span class="material-symbols-outlined" style="font-size: 1.25rem;
+            margin-right: 0.75rem;
+            opacity: 0.7;">
+                smart_display
+                </span>
+                <span class="material-symbols-outlined" style="font-size: 1.25rem;
+                margin-right: 0.75rem;
+                opacity: 0.7;">
+                    mic_external_on
+                    </span>
+                    <span class="material-symbols-outlined" style="font-size: 1.25rem;
+                    margin-right: 0.75rem;
+                    opacity: 0.7;">
+                        reorder
+                        </span>
+                        <span class="material-symbols-outlined" style="font-size: 1.25rem;
+                        margin-right: 0.75rem;
+                        opacity: 0.7;">
+                            stack_star
+                            </span>
+                            <span class="material-symbols-outlined" style="font-size: 1.25rem;
+                            margin-right: 0.75rem;
+                            opacity: 0.7;">
+                                volume_up
+                                </span>
+                                <span class="curr-time">
+                <input  type="range" min="0" max="100" style="height: 0.25rem; background-color: #ddd;">
+                </span>
+        </div>
+       
+    </div>
+</div>
+</body>
+</html>
